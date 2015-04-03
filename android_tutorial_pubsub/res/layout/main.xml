@@ -21,6 +21,7 @@
         android:layout_alignParentEnd="true" />
 
     <Button
+        android:onClick="elevatorButtonClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="1"
@@ -33,6 +34,7 @@
         android:textSize="@android:dimen/app_icon_size" />
 
     <Button
+        android:onClick="elevatorButtonClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2"
@@ -45,6 +47,7 @@
         android:textSize="@android:dimen/app_icon_size" />
 
     <Button
+        android:onClick="elevatorButtonClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="3"
@@ -57,6 +60,7 @@
         android:textSize="@android:dimen/app_icon_size" />
 
     <Button
+        android:onClick="elevatorButtonClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="4"
@@ -69,6 +73,7 @@
         android:textSize="@android:dimen/app_icon_size" />
 
     <Button
+        android:onClick="elevatorButtonClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="5"
@@ -81,6 +86,7 @@
         android:layout_alignParentStart="true" />
 
     <Button
+        android:onClick="elevatorButtonClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="6"
@@ -93,6 +99,7 @@
         android:layout_toEndOf="@+id/button1" />
 
     <Button
+        android:onClick="elevatorButtonClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="7"
@@ -105,6 +112,7 @@
         android:layout_toEndOf="@+id/button2" />
 
     <Button
+        android:onClick="elevatorButtonClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="8"
@@ -117,6 +125,7 @@
         android:layout_toEndOf="@+id/button3" />
 
     <Button
+        android:onClick="elevatorButtonClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="9"
@@ -129,6 +138,7 @@
         android:layout_alignParentStart="true" />
 
     <Button
+        android:onClick="elevatorButtonClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="10"
@@ -141,6 +151,7 @@
         android:layout_toEndOf="@+id/button9" />
 
     <Button
+        android:onClick="elevatorButtonClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="11"
@@ -153,6 +164,7 @@
         android:layout_toEndOf="@+id/button6" />
 
     <Button
+        android:onClick="elevatorButtonClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="12"
@@ -165,6 +177,7 @@
         android:layout_toEndOf="@+id/button11" />
 
     <Button
+        android:onClick="elevatorButtonClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="13"
@@ -177,6 +190,7 @@
         android:layout_alignParentStart="true" />
 
     <Button
+        android:onClick="elevatorButtonClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="14"
@@ -189,6 +203,7 @@
         android:layout_toEndOf="@+id/button9" />
 
     <Button
+        android:onClick="elevatorButtonClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="15"
@@ -201,6 +216,7 @@
         android:layout_toEndOf="@+id/button14" />
 
     <Button
+        android:onClick="elevatorButtonClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="16"

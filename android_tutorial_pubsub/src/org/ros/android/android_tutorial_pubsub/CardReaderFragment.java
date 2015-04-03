@@ -69,7 +69,7 @@ public class CardReaderFragment extends Fragment implements NfcAdapter.ReaderCal
     }
 
     private void enableReaderMode() {
-        Log.i(TAG, "Enabling reader mode");
+        //Log.i(TAG, "Enabling reader mode");
         Activity activity = getActivity();
         NfcAdapter nfc = NfcAdapter.getDefaultAdapter(activity);
         if (nfc != null) {
@@ -78,7 +78,7 @@ public class CardReaderFragment extends Fragment implements NfcAdapter.ReaderCal
     }
 
     private void disableReaderMode() {
-        Log.i(TAG, "Disabling reader mode");
+        //Log.i(TAG, "Disabling reader mode");
         Activity activity = getActivity();
         NfcAdapter nfc = NfcAdapter.getDefaultAdapter(activity);
         if (nfc != null) {
@@ -98,9 +98,6 @@ public class CardReaderFragment extends Fragment implements NfcAdapter.ReaderCal
             throw new ClassCastException(activity.toString()
                     + " must implement NfcReaderInputListener");
         }
-
-
-
     }
 
 
